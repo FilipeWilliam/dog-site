@@ -1,0 +1,45 @@
+#our-work {
+  padding: 0;
+}
+
+#our-work .dog-image {
+  background-image: url('/adopted-dog2.jpeg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 55em;
+  min-height: 50em;
+  position: relative;
+}
+
+#our-work .dog-image::after {
+  content: '';
+  height: 100%;
+  width: 100%;
+  background-color: #00000020;
+  position: absolute;
+}
+
+@media (max-width: 767px) {
+  #our-work .content-wrap {
+    padding: 7em 0;
+    text-align: center;
+  }
+}
+
+@media (min-width: 768px) {
+  #our-work .content-wrap {
+    padding-left: 6em;
+    max-width: 70%;
+  }
+}
+
+@media (min-width: 1400px) {
+  #our-work .content-wrap {
+    max-width: 60%;
+  }
+}
+
+#our-work .paragraph-wrap {
+  margin-top: 2em;
+}

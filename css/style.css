@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;900&display=swap');
+
+:root {
+  --blue-primary-color: #1BA8F6;
+  --blue-secondary-color: #17C2D4;
+  --transition-color: #26EBC6;
+  --green-primary-color: #17D47C;
+  --green-secondary-color: #1BF652;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #3D3D3D15;
+  font-family: 'Montserrat';
+  font-size: 10px;
+  font-weight: 500;
+}
+
+@media (max-width: 1199px) {
+  section {
+    padding: 7.5em 0;
+  }
+}
+
+@media (min-width: 1200px) {
+  section {
+    padding: 10.5em 0;
+  }
+}
+
+.section-title {
+  font-size: 3.2em;
+  text-align: center;
+}
+
+.section-paragraph {
+  font-size: 1.6em;
+  line-height: 1.8em;
+}
+
+.picture {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.button {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  padding: 10px 25px;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 1.4em;
+  border: 0;
+  transition: .3s ease;
+}
+
+.green-button {
+  background-color: #46D43F;
+  border: 1px solid #46D43F;
+  color: #FFF;
+}
+
+.green-button:hover {
+  background-color: #FFF;
+  color: #46D43F;
+}
+
+.white-button {
+  background-color: #FFF;
+  border: 1px solid #000;
+  color: #000;
+}
+
+.white-button:hover {
+  background-color: #000;
+  color: #FFF;
+}

@@ -1,0 +1,63 @@
+#our-pets .button-wrap {
+  display: flex;
+  justify-content: center;
+  gap: 1.5em;
+  margin-top: 3em;
+  flex-wrap: wrap;
+}
+
+#our-pets .content-wrap {
+  margin-top: 3em;
+}
+
+#our-pets .picture-wrap {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  gap: .5em;
+}
+
+#our-pets .picture-row {
+  width: 33%;
+  height: 40em;
+}
+
+.picture-row .picture:nth-child(1) {
+  margin-bottom: 0.5em;
+}
+
+.picture-row .picture:nth-child(2) {
+  margin-top: 0.5em;
+}
+
+#our-pets .small-picture {
+  height: 40%;
+}
+
+#our-pets .large-picture {
+  height: 60%;
+}
+
+#our-pets .first-picture-row .small-picture {
+  background-image: url('/adopted-dog.jpg');
+}
+
+#our-pets .first-picture-row .large-picture {
+  background-image: url('/dogs-walking.jpeg');
+}
+
+#our-pets .second-picture-row .small-picture {
+  background-image: url('/adopted-dog.jpg');
+}
+
+#our-pets .second-picture-row .large-picture {
+  background-image: url('/dogs-walking.jpeg');
+}
+
+#our-pets .third-picture-row .small-picture {
+  background-image: url('/adopted-dog.jpg');
+}
+
+#our-pets .third-picture-row .large-picture {
+  background-image: url('/dogs-walking.jpeg');
+}

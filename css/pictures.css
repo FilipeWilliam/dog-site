@@ -1,0 +1,49 @@
+#pictures {
+  height: 20em;
+  padding: 0;
+}
+
+#pictures .picture,
+#pictures .container,
+#pictures .pictures-wrap {
+  height: 100%;
+}
+
+#pictures .container {
+  display: flex;
+}
+
+#pictures .pictures-wrap {
+  display: flex;
+  width: 100%;
+}
+
+#pictures .picture {
+  width: 50%;
+}
+
+@media (min-width: 768px) {
+  #pictures .picture {
+    width: 25%;
+  }
+}
+
+#pictures .picture:nth-child(1) {
+  background-image: url('/adopted-dog.jpg');
+}
+
+#pictures .picture:nth-child(2) {
+  background-image: url('/banner.jpeg');
+}
+
+#pictures .picture:nth-child(3) {
+  background-image: url('/banner.jpg');
+}
+
+#pictures .picture:nth-child(4) {
+  background-image: url('/dogs-walking.jpeg');
+}
+
+#pictures .picture:nth-child(5) {
+  background-image: url('/adopted-dog2.jpeg');
+}

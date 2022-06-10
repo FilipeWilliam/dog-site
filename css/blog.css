@@ -1,0 +1,63 @@
+#blog {
+  background-color: #1C1C1C;
+  color: #FFF;
+}
+
+#blog .content-wrap {
+  margin-top: 3em;
+  display: flex;
+  justify-content: center;
+}
+
+#blog .blog-news {
+  height: 30em;
+  border-bottom: 1px solid #ffffff5e;
+  border-radius: 8px;
+  padding: 1em;
+  transition: .3s ease;
+}
+
+#blog .blog-news:hover {
+  box-shadow: 0px 0px 10px 0px #FFFFFF;
+}
+
+#blog .blog-news a {
+  color: #FFF;
+  text-decoration: none;
+}
+
+@media (max-width: 767px) {
+  #blog .blog-news {
+    margin-bottom: 4em;
+  }
+}
+
+#blog .picture-blog-news {
+  height: 70%;
+}
+
+#blog .wrap-content-blog-news {
+  height: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  font-size: 1.2em;
+}
+
+#blog .button-wrap {
+  margin-top: 3em;
+  display: flex;
+  justify-content: center;
+}
+
+#blog .col:nth-child(1) .picture-blog-news {
+  background-image: url('/dogs-walking.jpeg');
+}
+
+#blog .col:nth-child(2) .picture-blog-news {
+  background-image: url('/adopted-dog2.jpeg');
+}
+
+#blog .col:nth-child(3) .picture-blog-news {
+  background-image: url('/banner.jpg');
+}

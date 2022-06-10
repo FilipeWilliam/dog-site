@@ -1,0 +1,15 @@
+#about-us .content-wrap {
+  margin-top: 2.3em;
+  display: flex;
+  flex-direction: column;
+}
+
+#about-us .section-paragraph {
+  text-align: center;
+}
+
+#about-us .button-wrap {
+  display: flex;
+  justify-content: center;
+  margin-top: 3em;
+}

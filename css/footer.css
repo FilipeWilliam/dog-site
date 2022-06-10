@@ -1,0 +1,15 @@
+footer {
+  padding: 3.5em 0;
+}
+
+footer p {
+  text-align: center;
+  font-size: 1.4em;
+}
+
+footer .status::after {
+  content: '';
+  height: 3em;
+  width: 3em;
+  background-color: red;
+}
